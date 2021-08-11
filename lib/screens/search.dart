@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:plant_app/widgets/colors.dart';
-import 'package:plant_app/widgets/widgets.dart';
+import 'package:flutter_image_classification/widgets/colors.dart';
+import 'package:flutter_image_classification/widgets/widgets.dart';
 
 class Search extends StatelessWidget {
 
@@ -13,7 +13,7 @@ class Search extends StatelessWidget {
           children: [
             NavBar(),
             Intro(
-              title: "Explore plnts",
+              title: "Explore plants",
               subtitle: "Trending plants for your home",
             ),
             Container(
